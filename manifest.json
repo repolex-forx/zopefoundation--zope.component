@@ -197,6 +197,155 @@
       ],
       "ast": [
         "aggregate/ast/d8e9e037f4d3cdc0c80b6ccd945b511f1d3764c6/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d8e9e037f4d3cdc0c80b6ccd945b511f1d3764c6.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "zope-event",
+          "ecosystem": "PYPI",
+          "version": "6.2.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.event",
+          "githubUrl": "https://github.com/zopefoundation/zope.event",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-hookable",
+          "ecosystem": "PYPI",
+          "version": "4.2.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.hookable",
+          "githubCommit": "fd53c1eab75c560c6a02b3df6edecf2e8f068773",
+          "githubTag": "4.2.0",
+          "githubUrl": "https://github.com/zopefoundation/zope.hookable",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-interface",
+          "ecosystem": "PYPI",
+          "version": "5.3",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.interface",
+          "githubUrl": "https://github.com/zopefoundation/zope.interface",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "persistent",
+          "ecosystem": "PYPI",
+          "version": "6.9.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "persistent",
+          "githubUrl": "https://github.com/zopefoundation/persistent",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-location",
+          "ecosystem": "PYPI",
+          "version": "6.1.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.location",
+          "githubUrl": "http://github.com/zopefoundation/zope.location",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-proxy",
+          "ecosystem": "PYPI",
+          "version": "7.4.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.proxy",
+          "githubUrl": "https://github.com/zopefoundation/zope.proxy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-security",
+          "ecosystem": "PYPI",
+          "version": "8.5.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.security",
+          "githubUrl": "https://github.com/zopefoundation/zope.security",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-configuration",
+          "ecosystem": "PYPI",
+          "version": "7.1.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.configuration",
+          "githubUrl": "https://github.com/zopefoundation/zope.configuration",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-i18nmessageid",
+          "ecosystem": "PYPI",
+          "version": "8.4.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.i18nmessageid",
+          "githubUrl": "https://github.com/zopefoundation/zope.i18nmessageid",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-testing",
+          "ecosystem": "PYPI",
+          "version": "6.2.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.testing",
+          "githubUrl": "https://github.com/zopefoundation/zope.testing",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-testrunner",
+          "ecosystem": "PYPI",
+          "version": "6.4",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.testrunner",
+          "githubCommit": "975be756a3420e8cccc9647d34deb82686c1c52b",
+          "githubTag": "6.4",
+          "githubUrl": "https://github.com/zopefoundation/zope.testrunner",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubCommit": "7b2c103eaa4cabf0ac47224c444cf0cbc7c745e5",
+          "githubTag": "v9.2.0",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "repoze-sphinx-autointerface",
+          "ecosystem": "PYPI",
+          "version": "1.1.0",
+          "githubOrg": "repoze",
+          "githubRepo": "repoze.sphinx.autointerface",
+          "githubCommit": "ba8f7f26df46250ee8408c621c423de1e1b2327b",
+          "githubTag": "1.1.0",
+          "githubUrl": "https://github.com/repoze/repoze.sphinx.autointerface",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zodb",
+          "ecosystem": "PYPI",
+          "version": "6.4.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "ZODB",
+          "githubUrl": "https://github.com/zopefoundation/ZODB",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],
